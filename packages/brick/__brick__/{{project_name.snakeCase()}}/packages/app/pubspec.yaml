@@ -4,8 +4,8 @@ publish_to: none
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.2.0 <4.0.0"
-  flutter: 3.16.0
+  sdk: ">=3.2.6 <4.0.0"
+  flutter: ^3.16.9
 
 dependencies:
   {{#use_auto_route_router}}auto_route: ^7.8.4
@@ -18,8 +18,8 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  flutter_riverpod: ^2.4.8
-  {{#use_go_router_router}}go_router: ^12.1.1
+  flutter_riverpod: ^2.4.10
+  {{#use_go_router_router}}go_router: ^13.1.0
   {{/use_go_router_router}}{{#use_hive_database}}hive: ^2.2.3
   {{/use_hive_database}}intl: ^0.18.1
   {{#use_isar_database}}isar: ^3.1.0+1
@@ -27,14 +27,14 @@ dependencies:
   {{/use_isar_database}}json_annotation: ^4.8.1
   meta: ^1.10.0
   path: ^1.8.3
-  path_provider: ^2.1.1
+  path_provider: ^2.1.2
   reactive_forms: ^16.1.1
-  {{#use_realm_database}}realm: ^1.6.1
-  {{/use_realm_database}}riverpod_annotation: ^2.3.2
-  {{#use_sembast_database}}sembast: ^3.5.0+1
+  {{#use_realm_database}}realm: ^1.9.0
+  {{/use_realm_database}}riverpod_annotation: ^2.3.4
+  {{#use_sembast_database}}sembast: ^3.6.0
   sembast_web: ^2.2.0
   {{/use_sembast_database}}{{#use_sqlite_database}}sqlite3: ^2.3.0
-  sqlite3_flutter_libs: ^0.5.19+1
+  sqlite3_flutter_libs: ^0.5.20
   {{/use_sqlite_database}}tasks:
     path: ../tasks/
   {{#use_hive_database}}tasks_hive_storage:
@@ -55,17 +55,17 @@ dependencies:
 
 dev_dependencies:
   {{#use_auto_route_router}}auto_route_generator: ^7.3.2
-  {{/use_auto_route_router}}build_runner: ^2.4.6
-  custom_lint: ^0.5.7
+  {{/use_auto_route_router}}build_runner: ^2.4.8
+  custom_lint: ^0.6.0
   {{#use_sqlite_database}}drift_dev: ^2.15.0
   {{/use_sqlite_database}}flutter_test:
     sdk: flutter
-  {{#use_go_router_router}}go_router_builder: ^2.3.4
+  {{#use_go_router_router}}go_router_builder: ^2.4.1
   {{/use_go_router_router}}{{#use_isar_database}}isar_generator: ^3.1.0+1
   {{/use_isar_database}}json_serializable: ^6.7.1
-  mocktail: ^1.0.1
-  riverpod_generator: ^2.3.8
-  riverpod_lint: ^2.3.6
+  mocktail: ^1.0.3
+  riverpod_generator: ^2.3.11
+  riverpod_lint: ^2.3.9
   very_good_analysis: ^5.1.0
 
 dependency_overrides:

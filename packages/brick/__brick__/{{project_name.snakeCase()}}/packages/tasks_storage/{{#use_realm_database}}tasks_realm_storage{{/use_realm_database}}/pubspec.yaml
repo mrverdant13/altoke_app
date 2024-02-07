@@ -4,19 +4,19 @@ version: 0.0.1+1
 publish_to: none
 
 environment:
-  sdk: ">=3.2.0 <4.0.0"
-  flutter: 3.16.0
+  sdk: ">=3.2.6 <4.0.0"
+  flutter: ^3.16.9
 
 dependencies:
   common:
     path: ../../common/
   meta: ^1.10.0
-  realm: ^1.6.1
+  realm: ^1.9.0
   tasks:
     path: ../../tasks/
   tasks_storage:
     path: ../tasks_storage/
 
 dev_dependencies:
-  test: ^1.24.9
+  test: ^1.25.2
   very_good_analysis: ^5.1.0
