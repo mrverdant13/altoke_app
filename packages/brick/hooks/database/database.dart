@@ -8,6 +8,7 @@ enum Database {
   isar('Isar', 'isar'),
   realm('Realm', 'realm'),
   sembast('Sembast', 'sembast'),
+  sqlite('SQLite', 'sqlite'),
   ;
 
   const Database(this.label, this.varIdentifier);
