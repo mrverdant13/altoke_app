@@ -21,7 +21,7 @@ jobs:
       - name: Generate template
         run: melos run brick.gen
       - name: Create PR
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           base: main
           add-paths: |
