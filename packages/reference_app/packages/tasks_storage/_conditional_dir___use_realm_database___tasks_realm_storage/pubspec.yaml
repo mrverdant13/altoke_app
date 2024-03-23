@@ -10,7 +10,7 @@ dependencies:
   common:
     path: ../../common/
   meta: ^1.11.0
-  realm: ^1.9.0
+  realm: ^2.0.0
   tasks:
     path: ../../tasks/
   tasks_storage:
