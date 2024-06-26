@@ -34,4 +34,4 @@ dev_dependencies:
   build_runner: ^2.4.8
   isar_generator: ^3.1.0+1
   test: ^1.25.2
-  very_good_analysis: ^5.1.0
+  very_good_analysis: ^6.0.0
